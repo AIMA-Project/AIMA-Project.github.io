@@ -1,0 +1,23 @@
+.navbar {
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 1% 1%;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: pink;
+    color: black;
+}
+
+.navbar a.icon {
+    float: left;
+    display: block;
+}
