@@ -1,8 +1,9 @@
 /* TODO: Make height percentage-based instead of pixel based*/
 .hv_align {
     line-height: 1%;
-    height: 200px;
+    height: 1%;
     text-align: center;
+    padding: 1% 10%;
 }
 
 .hv_align p {

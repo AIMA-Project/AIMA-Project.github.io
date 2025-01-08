@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(95, 164, 255);
 }
 
 .navbar a {
@@ -8,7 +8,7 @@
     display: block;
     color: green;
     text-align: center;
-    padding: 1% 1%;
+    padding: 1% 1% 1% 1%;
     text-decoration: none;
 }
 
@@ -20,4 +20,11 @@
 .navbar a.icon {
     float: left;
     display: block;
+}
+
+.navbar img {
+    float: left;
+    width: 4%;
+    height: 4%;
+    padding: 0.5% 1% 0.5% 1%;
 }
