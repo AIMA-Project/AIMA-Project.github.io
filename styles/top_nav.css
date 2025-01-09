@@ -6,15 +6,14 @@
 .navbar a {
     float: right;
     display: block;
-    color: green;
+    color: white;
     text-align: center;
     padding: 1% 1% 1% 1%;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    background-color: pink;
-    color: black;
+    color: #fffb00;
 }
 
 .navbar a.icon {
