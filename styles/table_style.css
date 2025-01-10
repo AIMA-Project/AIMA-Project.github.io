@@ -1,0 +1,13 @@
+.tbl_align {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tbl_align th, .tbl_align td {
+    padding: 6px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
