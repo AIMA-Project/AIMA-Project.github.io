@@ -1,30 +1,30 @@
 function dl_module(uri)
 {
-    var githubZip = "https://github.com/AIMA-Project/AAMA-";
+    var githubZip = "./lab_docs/";
     switch(uri)
     {
         case "mod1":
-            githubZip += "Lab01";
+            githubZip += "lab01";
             break;
         case "mod2":
-            githubZip += "Lab02";
+            githubZip += "lab02";
             break;
         case "mod3":
-            githubZip += "Lab03";
+            githubZip += "lab03";
             break;
         case "mod4":
-            githubZip += "Lab04";
+            githubZip += "lab04";
             break;
-        case "modxai":
-            githubZip += "XAI";
+        case "mod5":
+            githubZip += "lab05";
             break;
         case "mod6":
-            githubZip += "Lab06";
+            githubZip += "lab06";
             break;
         case "mod7":
-            githubZip += "Lab07";
+            githubZip += "lab07";
             break;
     }
-    githubZip += "/archive/refs/heads/main.zip";
+    githubZip += ".zip";
     window.open(githubZip);
 }
