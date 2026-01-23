@@ -18,6 +18,12 @@ function dl_module(uri)
         case "modxai":
             githubZip += "XAI";
             break;
+        case "mod6":
+            githubZip += "Lab06";
+            break;
+        case "mod7":
+            githubZip += "Lab07";
+            break;
     }
     githubZip += "/archive/refs/heads/main.zip";
     window.open(githubZip);
